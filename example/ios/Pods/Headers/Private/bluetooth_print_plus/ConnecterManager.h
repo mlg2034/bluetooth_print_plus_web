@@ -1,0 +1,1 @@
+../../../../.symlinks/plugins/bluetooth_print_plus/ios/Classes/ConnecterManager.h
