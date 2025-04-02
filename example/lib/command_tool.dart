@@ -1,6 +1,7 @@
 import 'dart:typed_data';
 
-import 'package:bluetooth_print_plus/bluetooth_print_plus.dart';
+import 'package:bluetooth_print_plus/bluetooth_print_plus_web.dart';
+
 
 /// CommandTool
 class CommandTool {
