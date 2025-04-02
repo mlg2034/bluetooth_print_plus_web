@@ -2,8 +2,8 @@ import 'dart:io';
 
 import 'package:flutter/material.dart';
 import 'dart:async';
+import 'package:bluetooth_print_plus/bluetooth_print_plus.dart';
 
-import 'package:bluetooth_print_plus/bluetooth_print_plus_web.dart';
 import 'package:flutter/services.dart';
 
 import 'function_page.dart';
