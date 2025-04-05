@@ -1,5 +1,5 @@
-import 'package:bluetooth_print_plus/bluetooth_print_plus.dart';
 
+import 'package:bluetooth_print_plus/bluetooth_print_all_platform.dart';
 import 'package:flutter/services.dart';
 
 void test() async {

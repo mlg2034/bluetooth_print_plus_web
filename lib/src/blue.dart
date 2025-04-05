@@ -3,7 +3,7 @@ import 'dart:async';
 import 'package:flutter/services.dart';
 import 'package:rxdart/rxdart.dart';
 
-import '../bluetooth_print_plus.dart';
+import '../bluetooth_print_all_platform.dart';
 
 class BluetoothPrintPlus {
   static bool _initialized = false;

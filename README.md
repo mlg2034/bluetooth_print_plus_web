@@ -77,7 +77,7 @@ We need to add the permission to use Bluetooth and access location:
 
 #### **Android**
 
-In the **android/app/src/main/AndroidManifest.xml** let’s add:
+In the **android/app/src/main/AndroidManifest.xml** let's add:
 
 ```xml
 <uses-permission android:name="android.permission.BLUETOOTH" />
@@ -90,7 +90,7 @@ In the **android/app/src/main/AndroidManifest.xml** let’s add:
 
 #### **IOS**
 
-In the **ios/Runner/Info.plist** let’s add:
+In the **ios/Runner/Info.plist** let's add:
 
 ```dart
 <key>NSBluetoothAlwaysUsageDescription</key>
@@ -103,6 +103,7 @@ In the **ios/Runner/Info.plist** let’s add:
 
 ```dart
 import 'package:bluetooth_print_plus/bluetooth_print_plus.dart';
+import 'package:bluetooth_print_plus_web/bluetooth_print_plus_web.dart';
 ```
 
 ### BluetoothPrintPlus useful property

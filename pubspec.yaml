@@ -1,7 +1,7 @@
-name: bluetooth_print_plus
+name: bluetooth_print_all_platform
 description: This package is a fork of bluetooth_print_plus, originally developed by amoLink. It includes fixes for web platform compatibility, removing unnecessary web dependencies that caused issues during compilation. Bluetooth Print Plus is a Bluetooth plugin for Flutter that allows printing via thermal printers. It supports Android and iOS with command sets such as
 version: 2.4.7
-homepage: https://github.com/amoLink/bluetooth_print_plus
+homepage: https://github.com/mlg2034/bluetooth_print_plus_web
 
 environment:
   sdk: ">=3.0.6 <4.0.0"
@@ -34,6 +34,9 @@ flutter:
   # adding or updating assets for this project.
   plugin:
     platforms:
+      web:
+        pluginClass: BluetoothPrintPlusWeb
+        fileName: bluetooth_print_plus_web.dart
       android:
         package: com.example.bluetooth_print_plus.bluetooth_print_plus
         pluginClass: BluetoothPrintPlusPlugin
